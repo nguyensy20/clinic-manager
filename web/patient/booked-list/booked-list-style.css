@@ -1,0 +1,54 @@
+header {
+    height: 200px;
+    background-color: rgb(10, 179, 179);
+    font-size: 25px;
+}
+img {
+    height: 100%;
+}
+div {
+    height: 100%;
+}
+.menu {
+    text-align: center;
+    padding-top: 10%;
+}
+.auth {
+    padding-top: 20%;
+}
+footer {
+    background-color:  rgb(10, 179, 179);
+    height: 200px;
+    color:#ffffff ;
+}
+.link a{
+    display: block;
+}
+.contact a{
+    display: block;
+    height: 13%;
+}
+img{
+    height: 100%;
+}
+.introduction {
+    text-align: center;
+}
+.doctor-img{
+    width: 80px;
+}
+.left {
+    background-color: antiquewhite;
+    border: solid black 1px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.text-link {
+    color: #ffffff;
+}
+.footer-link {
+    color: #ffffff;
+}
+.btn-primary{
+    background-color: red;
+}

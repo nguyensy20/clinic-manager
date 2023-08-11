@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booking-style.css">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-2 column"></div>
+        <div class="col-md-8 column">
+            <form action="booking"  method="post" >
+                Date: <input type="date" name="booking-time"> <br>
+                <textarea name="reason" id="" cols="85" rows="5" placeholder="Reason"></textarea> <br>
+                <h3>Doctors</h3>
+                <select name="filter" id="">
+                    <option value="">Most booking</option>
+                    <option value="">Most experience</option>
+                </select>
+                
+                <div class="row doctor">
+                    <div class="col-md-10">
+                        <h4>NTS</h4>
+                        <p>mãn tính, viêm xương chữm, u trong tai, thủng. màng nhĩ - Các bệnh về mũi - xoang: viêm mũi, viêm mũi dị ứng, vẹo vách ngăn, u hốc mũi, phì đại cuốn mũi - Các bệnh về họng: Viêm Amidan, viêm VA, viêm mũi họng, v</p>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="radio" name="choosed">
+                    </div>
+                </div>
+    
+                <div class="row doctor">
+                    <div class="col-md-10">
+                        <h4>NTS</h4>
+                        <p>mãn tính, viêm xương chữm, u trong tai, thủng. màng nhĩ - Các bệnh về mũi - xoang: viêm mũi, viêm mũi dị ứng, vẹo vách ngăn, u hốc mũi, phì đại cuốn mũi - Các bệnh về họng: Viêm Amidan, viêm VA, viêm mũi họng, v</p>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="radio" name="choosed">
+                    </div>
+                </div>
+    
+                <input type="submit" value="Book">
+            </form>
+        </div>
+        <div class="col-md-2 column"></div>
+    </div>
+</body>
+</html>

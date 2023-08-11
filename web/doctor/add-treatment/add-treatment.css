@@ -1,0 +1,28 @@
+.add-treatment {
+    background-color: rgb(209, 225, 255);
+    margin-left: 10%;
+    width: 80%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+.date {
+    margin-top: 10px;
+    text-align: end;
+}
+.treatment-table {
+    width: 100%;
+    background-color: #ffffff;
+}
+.treatment-table td {
+    border: solid black 1px;
+}
+.treatment-table th {
+    border: solid black 1px;
+}

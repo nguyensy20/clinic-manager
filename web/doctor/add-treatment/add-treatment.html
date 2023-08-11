@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add-treatment.css">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="add-treatment">
+            <h3>Add treatment</h3>
+            <div class="profile">
+                Doctor: Nguyen Van A <br>
+                Patient: Nguyen Van B-31 tuoi-Hoa Lac Thach That Ha Noi
+            </div>
+            <h5>Symptoms: </h5>
+            This screen will display the list of patients who have registered for today's examination. It also displays the patient's examination order based on the registration time and indicates whether the patient is currently being examined.
+            <p class="date">Ha Noi, ngay 10 thang 2 nam 2023</p>
+            <table class="treatment-table">
+                <tr>
+                    <th>Number</th>
+                    <th>Treatment</th>
+                    <th>Detail</th>
+                    <th>Result</th>
+                    <th></th>
+                </tr>
+                <c:forEach>
+                    
+                </c:forEach>
+                <tr>
+                    <td>1</td>
+                    <td>Nội soi tai</td>
+                    <td>Dùng camera đưa vào sâu 3cm</td>
+                    <td>Lỗ tai rất sạch</td>
+                    <td>
+                        <a href="">Edit</a>
+                        <a href="">Remove</a>
+                    </td>
+                </tr>
+            </table>
+            <button class="add"><a href="">Add</a></button>
+            <button class="save"><a href="">Save</a></button>
+        </div>
+    </div>
+</body>
+</html>

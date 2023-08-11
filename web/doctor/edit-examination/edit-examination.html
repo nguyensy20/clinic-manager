@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="edit-examination.css">
+</head>
+
+<body>
+    <div class="menu-right">
+        <ul>
+            <li><a href="">Add treatment</a></li>
+            <li><a href="">View Medical Report</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="examination">
+            <div class="profile">
+                <div class="col-md-3 image">
+                    <img src="../../image/logo.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <h2>Nguyen Van A - 0123456789</h2>
+                    <table>
+                        <tr>
+                            <td>Nam</td>
+                            <td>KTX Nha ong ba Hoa Lac Thach That Ha Noi</td>
+                        </tr>
+                        <tr>
+                            <td>21 tuoi</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="information">
+                <h4>Reason</h4>
+                <textarea name="reason" id="" cols="110" rows="3">This screen will display the list of patients who have registered for today's examination. It also displays the patient's examination order based on the registration time and indicates whether the patient is currently being examined.
+                </textarea>
+                <h4>Notes</h4>
+                <textarea name="notes" id="" cols="30" rows="5">
+                    -Patient is super man
+                    -Patient is back
+                    -Patient's back is good
+                </textarea>
+                <h3 style="color: rgb(0, 0, 0);">Examination</h3>
+            </div>
+            <div class="Exam">
+                <form action="">
+                    <table class="clinical-exam">
+                        <tr>
+                            <td>Pulse <input type="number"></td>
+                            <td>Blood pressure<input type="number"></td>
+                            <td>Breathing<input type="number"></td>
+                        </tr>
+                        <tr>
+                            <td>Height<input type="number"></td>
+                            <td>Weight<input type="number"></td>
+                        </tr>
+                    </table>
+                    <h5>Symtoms</h5>
+                    <textarea name="" id="" cols="30" rows="2"></textarea>
+                    <h5>Result/Diseases</h5>
+                    <textarea name="" id="" cols="30" rows="2"></textarea>
+                    <h5>Add drug and dosage</h5>
+                    <table class="drug-dosage">
+                        <tr>
+                            <td>
+                                <select class="select-drug" name="" id="">
+                                    <option value="drug-1">Drug 1</option>
+                                    <option value="drug-2">Drug 2</option>
+                                    <option value="drug-2">Drug 2</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input class="dosage" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select class="select-drug" name="" id="">
+                                    <option value="drug-1">Drug 1</option>
+                                    <option value="drug-2">Drug 2</option>
+                                    <option value="drug-2">Drug 2</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input class="dosage" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select class="select-drug" name="" id="">
+                                    <option value="drug-1">Drug 1</option>
+                                    <option value="drug-2">Drug 2</option>
+                                    <option value="drug-2">Drug 3</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input class="dosage" type="text">
+                            </td>
+                        </tr>
+                    </table>
+                    <input class="submit" type="submit" name="" id="" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
